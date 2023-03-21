@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("Descubra se o número é Positivo, Negativo ou Zero <br>");
+        let n1 = parseFloat(prompt("Digite o valor: "));
+
+        if (n1 == 0){
+            document.write("O valor digitado é 0 (zero)");
+        }
+
+        else if(n1 < 0){
+            document.write("O valor digitado é negativo (" + n1 + ")");
+        }
+
+        else if(n1 > 0){
+            document.write("O valor digitado é positivo (" + n1 + ")");
+        }
+
+        else{
+            document.write("O valor digitado é inválido");
+        }
+    </script>
+</body>
+</html>
