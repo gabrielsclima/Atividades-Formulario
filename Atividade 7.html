@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            document.write("Serão somados somente números menores que 72<br>")
+            let i, soma = 0, numero, numeros = []
+            for(i=1; i<=10; i++){
+                numero = parseFloat(prompt("Digite o " + i + "º número:"));
+                numeros.push(numero);
+                if (numero < 72){
+                    soma += numero;
+                }
+            }
+            document.write("A soma dos números é: ", soma)
+            document.write("<br>Números escolhidos: ", numeros)
+        </script>
+    </body>
+</html>
